@@ -9,6 +9,8 @@ git status
 
 git add .
 
+git sth ???
+
 git commit -m 'Bla bla bla'
 
 git push origin master
@@ -25,4 +27,5 @@ git merge
 
 git view versions and branches
 
+esc :wq? to avoid merge
 
