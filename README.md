@@ -6,6 +6,8 @@ Here you can find a summary of some github commands
 
 * `git clone https://username:password@github.com/username/repository.git` clone an existing repo
 
+* `git pull origin master` pull files from remote master branch
+
 * `git status` check what has changed since last commit
 
 * `git diff` check differences in files since last commit
