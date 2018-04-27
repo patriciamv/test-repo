@@ -10,6 +10,8 @@ git clone *******
 
 git status
 
+--
+
 git diff
 git diff HEAD
 git diff --staged
