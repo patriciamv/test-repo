@@ -12,16 +12,21 @@ git status
 
 --
 
+git log -1
+git show *** (commit id)
+
 git diff
 git diff HEAD
 git diff --staged
 
-
+this does not track the revert changes and does you can not recover changes
 git reset --hard commi_id
 git reset octofamily/octodog.txt to go unstage a file
 
--- for staged files
+-- for staged files and keep a track of what we have changed
 git revert commit_id
+
+
 git status <-- check what has changed since last commit
 git add <-- add file to the staging area
 git commit -m 'create a readme'
