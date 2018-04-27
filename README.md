@@ -1,80 +1,43 @@
 # test-repo
-This is a test repo
 
-https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+Here you can find a summary of some github commands
 
-And here I'm adding some commands
-git init
+* `git init` initialize current folder as a git repo
 
-git clone *******
+* `git clone https://username:password@github.com/username/repository.git` clone an existing repo
 
-git status
+* `git status` check what has changed since last commit
 
---
+* `git diff` check differences in files since last commit
 
-git log -1
-git show *** (commit id)
+* `git add .` add all modified files to stage/local
 
-git diff
-git diff HEAD
-git diff --staged
+* `git commit -m 'commit description'` save commit to stage
 
-this does not track the revert changes and does you can not recover changes
-git reset --hard commi_id
-git reset octofamily/octodog.txt to go unstage a file
+* `git push origin master` save all changes to remote repository
 
--- for staged files and keep a track of what we have changed
-git revert commit_id
+* `git log` show historical commits
 
+* `git log -1` show last commit
 
-git status <-- check what has changed since last commit
-git add <-- add file to the staging area
-git commit -m 'create a readme'
-git log
+* `git show commit_id` show specific commit
 
-git lg
+* `git revert commit_id` revert commit and keep track 
 
-git tag (list all tags)
-git help tag (info)
-git tag -a 1.1.0 (add comments if we want to)
-git checkout 1.0.0 (go back and use a previous version)
+* `git reset --hard commit_id` permanently delete all commits after commit_id
 
+* `git tag` list all tags
 
-git branch shows the current braches
+* `git tag -a 0.0.0` create a tag, it is possible to add version comments
 
-git add .
+* `git checkout ****` tag, commit, branc
 
-git commit -m 'Bla bla bla'
+* `git branch` shows the current braches
 
-git log
+* `git branch branch_name` create a branch
 
-git push origin master
+* `git checkout -b branch_name` create a branch a move to it
 
-git checkout -b 'testbranch' -- to create the branch if it does not exist
-git branch balba --to create a branch
-git checkout bla bla
+* `git merge current_branch what_to_bring` merge branches
 
-git merge master clean_up
-git branch -d clean_up
-git push
-
-git config --global color.ui true
-
-
-git pull origin master
-
-.git file
-
-git checkout --.
-git checkout -- 'text'
-
-
-git merge
-
-git view versions and branches
-
-esc :wq? to avoid merge
-
-git init initialize local git repository
-
-
+* `git branch -d branch_name`
