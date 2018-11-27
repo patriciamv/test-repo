@@ -43,3 +43,5 @@ Here you can find a summary of some github commands
 * `git merge current_branch what_to_bring` merge branches
 
 * `git branch -d branch_name`
+
+* `git commit --amend` change message of a previous commit
